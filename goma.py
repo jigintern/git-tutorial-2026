@@ -14,7 +14,7 @@ AA_CHARACTERS = [
     `ｰ┬─┬ｰ´
       し し
 """,
-        "message": "もちすみは、たぶん今日も元気です。"
+        "message": "もちすみは、たぶん今日も元気ですよ。"
     },
     {
         "name": "ぽゆ",
@@ -52,7 +52,7 @@ AA_CHARACTERS = [
 def summon_aa():
     character = random.choice(AA_CHARACTERS)
 
-    print("AAキャラ召喚中", end="", flush=True)
+    print("kawaiiAAキャラ召喚中", end="", flush=True)
     for _ in range(3):
         time.sleep(0.35)
         print(".", end="", flush=True)
